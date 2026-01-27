@@ -1,0 +1,10 @@
+abi_version=1.201.0
+builtins_platform=JS
+compiler_version=2.1.0
+depends=com.sarmad.certinspector\:library org.jetbrains.compose.material3\:material3 org.jetbrains.compose.material\:material-ripple org.jetbrains.compose.foundation\:foundation org.jetbrains.compose.animation\:animation org.jetbrains.compose.material\:material-icons-core org.jetbrains.compose.foundation\:foundation-layout org.jetbrains.compose.ui\:ui org.jetbrains.compose.runtime\:runtime-saveable org.jetbrains.compose.runtime\:runtime org.jetbrains.compose.animation\:animation-core org.jetbrains.kotlinx\:kotlinx-coroutines-core org.jetbrains.kotlinx\:kotlinx-datetime org.jetbrains.compose.html\:html-core org.jetbrains.compose.ui\:ui-text org.jetbrains.compose.ui\:ui-graphics org.jetbrains.skiko\:skiko org.jetbrains.compose.ui\:ui-unit org.jetbrains.compose.ui\:ui-geometry org.jetbrains.compose.ui\:ui-util org.jetbrains.kotlinx\:kotlinx-serialization-core org.jetbrains.compose.html\:internal-html-core-runtime org.jetbrains.kotlin\:kotlin-dom-api-compat kotlin org.jetbrains.kotlinx\:atomicfu
+ir_signature_versions=1,2
+jsOutputName=cert-inspector-demo
+metadata_version=1.4.1
+serializedIrFileFingerprints=2chkpki775y5w.1p3zqlzi6syis 1numlyp6yrdm1.28yn8an9cipr7 18hqbmvhvoba7.wxj21vt0lo9w 2ylq2zu3as8pg.urcf39i2no26 1ub5y8bi767zk.126ibd94k0qgi 283f6a5v6wof.3dbcg7h8c83ss 1mlkyrufqcluo.1udx8mxln15h3 1kf568xt381y7.21xeh6a609ac0
+serializedKlibFingerprint=10e3abrvffk56.23ns0otbiugt4
+unique_name=cert-inspector\:demo

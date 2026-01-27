@@ -1,0 +1,10 @@
+abi_version=1.201.0
+builtins_platform=JS
+compiler_version=2.1.0
+depends=org.jetbrains.kotlinx\:kotlinx-coroutines-core org.jetbrains.kotlinx\:kotlinx-datetime org.jetbrains.kotlinx\:kotlinx-serialization-core org.jetbrains.kotlin\:kotlin-dom-api-compat kotlin org.jetbrains.kotlinx\:atomicfu
+ir_signature_versions=1,2
+jsOutputName=cert-inspector-library
+metadata_version=1.4.1
+serializedIrFileFingerprints=1uwtfw86zodst.3an92b8v3d7d8 38ce2cy6av729.2ulu965ldhxka 2sd9fr87gtqdn.1bc8kvxfcesy4 6upl1mwsmhv4.2botqn76vwdns 33dj65x6f9al0.2wx7a9mffhjxq 2utkg9s34o4h4.1xfom2fzp3i0l 2ulsc6xpi4yl9.2io7jhzmssztz bst1btfkoho.3hbht468006tu 1xkcvxcrlimu3.321xlb6dvx614 3ecdgndr3kowi.20utb1n13j4ec 1ibtd59v6tff5.2h25tslsb1e0z 2epdr20hckkf0.33wemu53r6fh5 35dlwv617ips.2103cev7rlsmr 3mkst9gr0l66b.3qeehhu4z91ht 3v1zxmm16582x.1q4wmi0sre4mr 1gh8wfh4f7xi9.8hcjdl58pvv0 14ihjyvifgk8k.1or95rzvt4j3g 37l40e6bmwqt8.2a6wfn1sqlzv9 1jsfmdw5e3yh9.31xjr4yu8fhyl
+serializedKlibFingerprint=1hpbbc9f1idaw.1nsprvvlf9sp
+unique_name=com.sarmad.certinspector\:library

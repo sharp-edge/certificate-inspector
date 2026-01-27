@@ -1,0 +1,2 @@
+
+"<com.sarmad.certinspector:library>:com.sarmad.certinspector:(com.sarmad.certinspector.data.repository:$com.sarmad.certinspector.data.source:%com.sarmad.certinspector.domain.model:*com.sarmad.certinspector.domain.repository:'com.sarmad.certinspector.domain.usecase:com.sarmad.certinspector.util
