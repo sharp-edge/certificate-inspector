@@ -1,5 +1,11 @@
 # Certificate Inspector
 
+[![JitPack](https://jitpack.io/v/sharp-edge/certificate-inspector.svg)](https://jitpack.io/#sharp-edge/certificate-inspector)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.1.0-blue.svg)](https://kotlinlang.org)
+[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20JVM%20%7C%20iOS-green.svg)](https://kotlinlang.org/docs/multiplatform.html)
+
+
 A Kotlin Multiplatform library for SSL/TLS certificate inspection and security analysis. Provides detailed certificate information, chain validation, and security assessments across Android, iOS, Desktop, and Web platforms.
 
 ## Motivation
@@ -56,10 +62,21 @@ Modern browsers intentionally prevent JavaScript from accessing SSL certificate 
 
 ### Gradle (Kotlin DSL)
 
+Add JitPack repository in your `settings.gradle.kts`:
+```kotlin
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+        maven("https://jitpack.io")
+    }
+}
+```
+
 Add the dependency to your `build.gradle.kts`:
 ```kotlin
 dependencies {
-    implementation("com.sarmad.certinspector:cert-inspector:1.0.0")
+    implementation("com.github.sharp-edge:certificate-inspector:1.0.3")
 }
 ```
 
@@ -69,12 +86,14 @@ kotlin {
     sourceSets {
         commonMain {
             dependencies {
-                implementation("com.sarmad.certinspector:cert-inspector:1.0.0")
+                implementation("com.github.sharp-edge:certificate-inspector:1.0.3")
             }
         }
     }
 }
 ```
+
+[![](https://jitpack.io/v/sharp-edge/certificate-inspector.svg)](https://jitpack.io/#sharp-edge/certificate-inspector)
 
 ## Usage
 
