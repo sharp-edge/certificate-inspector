@@ -7,6 +7,8 @@ plugins {
 group = "com.sarmad.certinspector"
 version = "1.0.0"
 
+val isJitPackBuild = System.getenv("JITPACK") == "true"
+
 kotlin {
     androidTarget {
         publishLibraryVariants("release")
@@ -17,15 +19,18 @@ kotlin {
 
     jvm()
 
-    js(IR) {
-        browser {
-            commonWebpackConfig {
-                cssSupport {
-                    enabled.set(true)
+    // Skip JS target on JitPack (requires newer GLIBC than available)
+    if (!isJitPackBuild) {
+        js(IR) {
+            browser {
+                commonWebpackConfig {
+                    cssSupport {
+                        enabled.set(true)
+                    }
                 }
             }
+            binaries.executable()
         }
-        binaries.executable()
     }
 
     listOf(
