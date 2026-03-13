@@ -2,3 +2,4 @@ jdk:
   - openjdk17
 install:
   - ./gradlew :library:publishToMavenLocal -x test
+# Checked: 2026-03-13
