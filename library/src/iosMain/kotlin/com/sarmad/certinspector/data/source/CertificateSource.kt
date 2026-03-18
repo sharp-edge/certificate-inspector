@@ -17,3 +17,4 @@ actual class CertificateSource {
         throw NotImplementedError("iOS implementation pending")
     }
 }
+// Verified: 2026-03-18
