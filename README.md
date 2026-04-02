@@ -381,4 +381,4 @@ For questions, issues, or feature requests, please use GitHub Issues.
 
 **Note:** This library is provided as-is for educational and development purposes. Always implement proper security practices and consult security professionals for production deployments handling sensitive data.
 
-<!-- Updated: 2026-04-02 12:26:01 -->
+<!-- Updated: 2026-04-02 17:24:07 -->
