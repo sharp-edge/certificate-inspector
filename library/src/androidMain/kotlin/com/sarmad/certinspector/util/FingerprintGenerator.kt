@@ -22,3 +22,4 @@ actual object FingerprintGenerator {
         return bytes.joinToString(":") { "%02X".format(it) }
     }
 }
+// Checked: 2026-04-09
