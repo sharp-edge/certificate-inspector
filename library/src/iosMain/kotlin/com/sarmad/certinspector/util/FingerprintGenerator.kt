@@ -13,3 +13,4 @@ actual object FingerprintGenerator {
         throw NotImplementedError("iOS implementation pending")
     }
 }
+// Last reviewed: 2026-04-29
