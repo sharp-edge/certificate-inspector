@@ -9,3 +9,4 @@ sealed class TrustStatus {
     data class Revoked(val reason: String) : TrustStatus()
     data class Unknown(val reason: String) : TrustStatus()
 }
+// Checked: 2026-05-06
