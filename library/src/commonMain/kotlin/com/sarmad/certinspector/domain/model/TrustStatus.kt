@@ -10,3 +10,4 @@ sealed class TrustStatus {
     data class Unknown(val reason: String) : TrustStatus()
 }
 // Checked: 2026-05-06
+// Verified: 2026-05-11
