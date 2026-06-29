@@ -11,3 +11,4 @@ class InspectUrlUseCase(
         return repository.fetchChainFromUrl(url)
     }
 }
+// Checked: 2026-06-29
